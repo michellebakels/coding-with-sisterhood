@@ -5,8 +5,12 @@ import ImageSlider from "./components/ImageSlider";
 function App() {
   return (
     <div>
-      <header className="home-header">
-        <h1 className="h1-header">The Wag Group</h1>
+      <header >
+        <div className="home-header">
+        <h1 className="h1-header">Beth Wagmeister</h1>
+        <h2 className="left-header">Advocacy for the Deaf and Hard of Hearing</h2>
+        </div>
+        <p className="p-header">TWG, llc</p>
       </header>
       <div className="container-pics">
       <ImageSlider />
