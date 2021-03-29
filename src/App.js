@@ -1,5 +1,6 @@
-import logo from "./logo.svg";
+import React from 'react';
 import "./App.css";
+import ImageSlider from "./components/ImageSlider";
 
 function App() {
   return (
@@ -7,6 +8,7 @@ function App() {
       <header className="home-header">
         <h1 className="h1-header">The Wag Group</h1>
       </header>
+      <ImageSlider />
       <footer className="home-footer">
         <h2 className="title-footer">Contact Wag Group:</h2>
         <p>
