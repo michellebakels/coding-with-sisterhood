@@ -8,7 +8,9 @@ function App() {
       <header className="home-header">
         <h1 className="h1-header">The Wag Group</h1>
       </header>
+      <div className="container-pics">
       <ImageSlider />
+      </div>
       <footer className="home-footer">
         <h2 className="title-footer">Contact Wag Group:</h2>
         <p>
