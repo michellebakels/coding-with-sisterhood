@@ -14,12 +14,16 @@ header {
   color: #FFFCFF;
   font-family: 'Raleway', sans-serif;
   padding: 3vh;
+  
 }
 
 .description{
   text-align: center;
   margin-top: -24px;
   margin-bottom: 32px;
+  font-size: 5vh;
+  font-style: italic;
+
 }
 
 .h1-header{
@@ -57,7 +61,7 @@ margin-bottom: 0;
 }
 
 .container-pics{
-  background: #cbd4c266;  
+  background: #b4deff; 
   padding: 5%; 
   border-radius: 1%;
   width: 85vw;
