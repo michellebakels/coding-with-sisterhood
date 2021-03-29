@@ -1,4 +1,3 @@
-// import { RightOutlined, LeftOutlined } from '@ant-design/icons'
 import interp1 from '../../images/interp1.png'
 import interp2 from '../../images/interp2.png'
 import interp3 from '../../images/interp3.png'

@@ -14,7 +14,7 @@ header {
   color: #FFFCFF;
   font-family: 'Raleway', sans-serif;
   padding: 3vh;
-  
+  background-image: linear-gradient(to bottom right, #39375B, #745C97);
 }
 
 .description{
@@ -36,12 +36,13 @@ header {
 }
 
 .home-footer{
-display: flex;
-background-color: #745C97 ;
-color: #FFFCFF;
-padding: 3vh;
-flex-direction:column;
-font-family: 'Lato', sans-serif;
+  display: flex;
+  background-color: #745C97 ;
+  background-image: linear-gradient(to bottom right, #39375B, #745C97);
+  color: #FFFCFF;
+  padding: 3vh;
+  flex-direction:column;
+  font-family: 'Lato', sans-serif;
 }
 
 .links{
