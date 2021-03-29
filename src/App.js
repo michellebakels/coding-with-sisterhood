@@ -9,9 +9,7 @@ function App() {
       <header>
         <div className="home-header">
           <h1 className="h1-header">Beth Wagmeister</h1>
-
         </div>
-        <p className="p-header">TWG, llc</p>
       </header>
       <div className="content-container">
         <div id="image-slider-container" className="container-pics">
@@ -35,7 +33,7 @@ function App() {
       </div>
       <Testimonials />
       <footer className="home-footer">
-        <h2 className="title-footer">Contact Wag Group:</h2>
+        <h2 className="title-footer">Contact Beth Wagmeister:</h2>
         <p>
           Email: wagmeister.beth@gmail.com
           <br />
@@ -76,6 +74,7 @@ function App() {
             />
           </a>
         </div>
+        <span style={{textAlign: "right"}}>TWG, llc</span>
       </footer>
     </div>
   );
