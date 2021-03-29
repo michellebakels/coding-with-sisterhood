@@ -84,7 +84,7 @@ section {
   transition: 0.3s;
   width: 300px;
   min-height: 450px;
-  background-color: #5CBBFF;
+  background-color: #5cbbff75;
   margin: 24px;
 }
 
@@ -99,4 +99,6 @@ q {
 
 .testimonial-header {
   text-align: center;
+  font-size: 4vh;
+
 }

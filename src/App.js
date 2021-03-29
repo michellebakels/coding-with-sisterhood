@@ -17,7 +17,7 @@ function App() {
         <div id="image-slider-container" className="container-pics">
           <h2 className="description">Advocacy for the Deaf and Hard of Hearing</h2>
           <ImageSlider />
-          <h4 className="about-title">About: </h4>
+          <h4 className="about-title">About </h4>
           <p className="about-paragraph">
             Beth Wagmeister provides advocacy services on behalf of the d/Deaf
             Community and serves as an outreach educator with focus on the
