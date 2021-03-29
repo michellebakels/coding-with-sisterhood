@@ -4,8 +4,8 @@ import interp2 from '../../images/interp2.png'
 import interp3 from '../../images/interp3.png'
 import interp4 from '../../images/interp4.png'
 import interp5 from '../../images/interp5.png'
-// import interp6 from '../../images/interp6.png'
-// import interp7 from '../../images/interp7.png'
+import interp6 from '../../images/interp6.png'
+import interp7 from '../../images/interp7.png'
 
 export const settingsMain = {
     slidesToShow: 1,
@@ -71,12 +71,12 @@ export const settingsThumbs = {
 export const photos = [
     {
         id: 1,
-        image: interp1,
+        image: interp2,
         alt: '',
     },
     {
         id: 2,
-        image: interp2,
+        image: interp1,
         alt: '',
     },
     {
@@ -94,14 +94,14 @@ export const photos = [
         image: interp5,
         alt: '',
     },
-    // {
-    //     id: 6,
-    //     image: interp6,
-    //     alt: '',
-    // },
-    // {
-    //     id: 7,
-    //     image: interp7,
-    //     alt: '',
-    // },
+    {
+        id: 6,
+        image: interp6,
+        alt: '',
+    },
+    {
+        id: 7,
+        image: interp7,
+        alt: '',
+    },
 ]
