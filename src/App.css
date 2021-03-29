@@ -46,8 +46,17 @@ margin-bottom: 0;
 
 .container-pics{
   margin: 8vh;
+  background: #cbd4c266;  
+  padding: 5%; 
+  border-radius: 1%;
 }
 
 .left-header{
 font-style: italic; 
+}
+.about-title {
+  font-size: 4vh;
+}
+.about-paragraph{
+  font-size: 3vh;
 }
