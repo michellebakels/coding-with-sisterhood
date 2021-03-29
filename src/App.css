@@ -16,6 +16,12 @@ header {
   padding: 3vh;
 }
 
+.description{
+  text-align: center;
+  margin-top: -24px;
+  margin-bottom: 32px;
+}
+
 .h1-header{
   margin: 0;
   padding-bottom: 0;
@@ -44,11 +50,17 @@ font-family: 'Lato', sans-serif;
 margin-bottom: 0;
 }
 
+.content-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 32px;
+}
+
 .container-pics{
-  margin: 8vh;
   background: #cbd4c266;  
   padding: 5%; 
   border-radius: 1%;
+  width: 85vw;
 }
 
 .left-header{
@@ -59,4 +71,32 @@ font-style: italic;
 }
 .about-paragraph{
   font-size: 3vh;
+}
+
+section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 300px;
+  min-height: 450px;
+  background-color: #5CBBFF;
+  margin: 24px;
+}
+
+.card-container {
+  padding: 16px;
+}
+
+q {
+  font-size: 18px;
+  line-height: 1.5em;
+}
+
+.testimonial-header {
+  text-align: center;
 }

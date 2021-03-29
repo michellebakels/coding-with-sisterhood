@@ -1,6 +1,7 @@
 import React from "react";
 import "./App.css";
 import ImageSlider from "./components/ImageSlider";
+import Testimonials from "./components/testimonials";
 
 function App() {
   return (
@@ -8,77 +9,31 @@ function App() {
       <header>
         <div className="home-header">
           <h1 className="h1-header">Beth Wagmeister</h1>
-          <h2 className="left-header">
-            Advocacy for the Deaf and Hard of Hearing
-          </h2>
+
         </div>
         <p className="p-header">TWG, llc</p>
       </header>
-      <div id="image-slider-container" className="container-pics">
-        <ImageSlider />
-        <h4 className="about-title">About: </h4>
-        <p className="about-paragraph">
-          Beth Wagmeister provides advocacy services on behalf of the d/Deaf
-          Community and serves as an outreach educator with focus on the
-          Americans with Disability Act of 1990 (ADA) to ensure that business'
-          understand their responsibilities under the ADA; Compliance;
-          Accessibility; Inclusion of all people.
-          <br/> 
-          <br/> 
-          She also provides interactive
-          workshops and lunch and learns with Deaf focus about Titles I-V of the
-          ADA: Employment; State and Local Government; Public Accommodations
-          (entertainment); Telecommunications; Miscellaneous.{" "}
-        </p>
+      <div className="content-container">
+        <div id="image-slider-container" className="container-pics">
+          <h2 className="description">Advocacy for the Deaf and Hard of Hearing</h2>
+          <ImageSlider />
+          <h4 className="about-title">About: </h4>
+          <p className="about-paragraph">
+            Beth Wagmeister provides advocacy services on behalf of the d/Deaf
+            Community and serves as an outreach educator with focus on the
+            Americans with Disability Act of 1990 (ADA) to ensure that business'
+            understand their responsibilities under the ADA; Compliance;
+            Accessibility; Inclusion of all people.
+            <br/>
+            <br/>
+            She also provides interactive
+            workshops and lunch and learns with Deaf focus about Titles I-V of the
+            ADA: Employment; State and Local Government; Public Accommodations
+            (entertainment); Telecommunications; Miscellaneous.{" "}
+          </p>
+        </div>
       </div>
-      <section>
-        <div id="testimony-card" className="card">
-          <div id="card-container" className="card-container">
-            <q>
-              Beth was instrumental in guiding, and leading, the planning and
-              execution of our franchise's first-ever Deaf Awareness Night. Her
-              attention to detail, and incredible knowledge of ASL and the Deaf
-              Community, resulted in a successful event that we are excited to
-              continue as an annual highlight of our team's season.
-            </q>
-            <br />
-            <br />
-            <em>-Brad Seymour</em>
-            <br />
-            <em>
-              President, Windy City Bulls, Chicago Bulls NBA G League Franchise
-            </em>
-          </div>
-        </div>
-        <div id="testimony-card" className="card">
-          <div id="card-container" className="card-container">
-            <br />
-            <br />
-            <em>-Todd Albert</em>
-            <br />
-            <em>Founder and Lead Instructor, Boca Code</em>
-          </div>
-        </div>
-        <div id="testimony-card" className="card">
-          <div id="card-container" className="card-container">
-            <q>
-              Due to this connection [with the City of Boynton, facilitated by
-              Beth], I have been able to secure an On The Job Training for a
-              very deserving woman. She has begun this OJT with great success
-              and support by the City and this would not have been possible
-              without the connection that I made with Beth. Beth went out of her
-              way to assist me and she saw it through to make sure we had
-              everything we needed to make this employment match for her a
-              success.
-            </q>
-            <br />
-            <br />
-            <em>-Jenni Paine</em>
-            <br />
-            <em>Career Resource Specialist, Work Opportunities Unlimited</em>
-          </div>
-        </div>
-      </section>
+      <Testimonials />
       <footer className="home-footer">
         <h2 className="title-footer">Contact Wag Group:</h2>
         <p>
